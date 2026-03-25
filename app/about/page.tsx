@@ -44,7 +44,7 @@ export default function AboutPage() {
           <div>
             <Reveal delay={0.1}>
             <img
-              src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=1200&q=80"
+              src="/images/hero.jpg.jpeg"
               alt="About portrait"
               className="h-[620px] w-full object-cover"
             />
