@@ -41,11 +41,11 @@ export default function Page() {
       </header>
 
       <main className="mx-auto mt-12 max-w-7xl px-6 pb-16 md:px-12">
-        <section className="grid gap-10 md:grid-cols-2 md:items-start">
+        <section className="grid min-h-[140vh] gap-10 md:grid-cols-2 md:items-start">
           <div>
             <Reveal>
             <img
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80"
+              src="/images/closeup.jpg.jpeg"
               alt="Portrait 1"
               className="h-[540px] w-full object-cover"
             />
@@ -55,7 +55,7 @@ export default function Page() {
           <div className="md:pt-24">
             <Reveal>
             <img
-              src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80"
+              src="/images/back.jpeg"
               alt="Portrait 2"
               className="h-[540px] w-full object-cover"
             />
