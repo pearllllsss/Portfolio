@@ -29,11 +29,11 @@ export default function Page() {
               portfolio
             </Link>
              <a
-  href="https://instagram.com/pearllllsss"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-3 flex items-center text-[#d1b08a] hover:scale-110 transition duration-300"
->
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="pb-1 hover:text-[#d1b08a]"
+            >
               instagram
             </a>
           </nav>
