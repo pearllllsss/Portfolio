@@ -22,6 +22,9 @@ export default function PortfolioPage() {
             <Link href="/" className="pb-1 hover:text-[#d1b08a]">
               home
             </Link>
+            <Link href="/about" className="pb-1 hover:text-[#d1b08a]">
+              about
+            </Link>
             <Link href="/digitals" className="pb-1 hover:text-[#d1b08a]">
               digitals
             </Link>
