@@ -28,10 +28,10 @@ export default function AboutPage() {
               portfolio
             </Link>
             <a
-              href="https://instagram.com/rita.soboh"
+              href="https://instagram.com/"
               target="_blank"
               rel="noreferrer"
-              className="pb-1 text-[#d1b08a] hover:opacity-80"
+              className="pb-1 hover:text-[#d1b08a]"
             >
               instagram
             </a>
