@@ -35,7 +35,7 @@ export default function PortfolioPage() {
               portfolio
             </Link>
             <a
-              href="https://instagram.com/"
+              href="https://instagram.com/pearllllsss"
               target="_blank"
               rel="noreferrer"
               className="pb-1 hover:text-[#d1b08a]"
