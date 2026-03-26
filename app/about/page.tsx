@@ -108,10 +108,12 @@ export default function AboutPage() {
 
         <section className="mt-20 flex justify-between items-start gap-12">
   <div>
+   <Reveal>
     <h3 className="font-serif text-lg text-[#d1b08a] md:text-xl">Height</h3>
     <p className="mt-3 font-serif text-base text-[#f3efe8] md:text-lg">
       171cm / 5'7"
     </p>
+    </Reveal>
   </div>
 
   <div>
