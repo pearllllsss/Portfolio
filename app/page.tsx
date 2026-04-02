@@ -55,7 +55,7 @@ export default function Page() {
           <div className="md:pt-24">
             <Reveal>
             <img
-              src="/images/back.jpeg"
+              src="/images/sitting.jpg"
               alt="Portrait 2"
               className="h-[540px] w-full object-cover"
             />
