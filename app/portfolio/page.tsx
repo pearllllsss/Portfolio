@@ -3,10 +3,10 @@ import ContactSection from "../components/contactsection";
 import Reveal from "../components/reveal";
 export default function PortfolioPage() {
   const images = [
-    "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1200&q=80",
+    "/images/breakingglass.CR2"
+    "/images/closeup3.jpg"
+    "/images/wallstand.jpg"
+    "/images/sitting.jpg"
   ];
 
   return (
