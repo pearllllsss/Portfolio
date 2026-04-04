@@ -65,14 +65,12 @@ export default function AboutPage() {
 </Reveal>
 <Reveal delay={0.3}>
             <p className="mt-8 max-w-2xl text-lg leading-9 text-[#f3efe8]/90">
-              I am a beginner model currently building my portfolio and open to
-              agency applications, test shoots, editorial, beauty, fashion, and
-              lifestyle opportunities.
+              I am a beginner model currently building my portfolio.
             </p>
 
             <p className="mt-6 max-w-2xl text-lg leading-9 text-[#f3efe8]/90">
-              I am based in Turin and also available in Milan and across Europe.
-              At this stage, my focus is on creating strong digitals, clean
+              I am based in Turin and also available in Milan and some other close cities.
+              At this stage, my focus is on creating clean
               portfolio images, and professional material for future modeling
               opportunities.
             </p>
@@ -101,7 +99,7 @@ export default function AboutPage() {
                   Currently Building
                 </p>
                 <p className="mt-3 leading-8 text-[#f3efe8]/90">
-                  Digitals, portfolio images, and a clean professional presence
+                  Portfolio images, and a clean professional presence
                   for castings and applications.
                 </p>
                 </Reveal>
