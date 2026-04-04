@@ -44,7 +44,7 @@ export default function AboutPage() {
           <div>
             <Reveal delay={0.1}>
             <img
-              src="/images/closeup2.jpg"
+              src="/images/necktie.jpg"
               alt="About portrait"
               className="h-[620px] w-full object-cover"
             />
