@@ -5,17 +5,19 @@ export default function DigitalsPage() {
   const digitals = [
     {
       title: "Front View",
+      image:"",
     },
     {
       title: "Side Profile",
+      image:"",
     },
     {
       title: "Full Length",
-      
+      image:"",
     },
     {
       title: "Close Up",
-      
+      image:"",
     },
   ];
   return (
@@ -57,7 +59,7 @@ export default function DigitalsPage() {
 
       <main className="mx-auto max-w-7xl px-6 pb-20 pt-12 md:px-12">
     
-<p> Working in progress on the Digitals.</p>
+<h3> Working in progress on the Digitals.</h3>
         <div className="grid gap-12 pb-20 md:grid-cols-2">
           {digitals.map((item, i) => (
             <div
