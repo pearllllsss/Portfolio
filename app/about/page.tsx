@@ -2,6 +2,7 @@ import Link from "next/link";
 import { MapPin } from "lucide-react";
 import ContactSection from "../components/contactsection";
 import Reveal from "../components/reveal";
+import Image from "next/image";
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-[#1f1f1f] text-[#f3efe8]">
@@ -43,13 +44,14 @@ export default function AboutPage() {
         <section className="grid gap-12 md:grid-cols-2">
           <div>
             <Reveal delay={0.1}>
-            <img
-              src="/images/necktie.jpg"
-              alt="About portrait"
-              width={800}
-              height={1000}
-              className="h-[620px] w-full object-cover object-center"
-            />
+            <Image
+  src="/images/necktie.jpg"
+  alt="About portrait"
+  width={992}
+  height={1488}
+  priority
+  className="w-full h-auto object-cover"
+/>
             </Reveal>
           </div>
           <div className="flex flex-col justify-center">
