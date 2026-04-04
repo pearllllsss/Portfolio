@@ -46,6 +46,8 @@ export default function AboutPage() {
             <img
               src="/images/necktie.jpg"
               alt="About portrait"
+              width={800}
+              height={1000}
               className="h-[620px] w-full object-cover object-center"
             />
             </Reveal>
