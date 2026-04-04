@@ -69,8 +69,7 @@ export default function AboutPage() {
             </p>
 
             <p className="mt-6 max-w-2xl text-lg leading-9 text-[#f3efe8]/90">
-              I am based in Turin and also available in Milan and some other close cities.</p>
-              <p className="mt-6 max-w-2xl text-lg leading-9 text-[#f3efe8]/90">At this stage, my focus is on creating clean
+              I am based in Turin and also available in Milan and some other close cities. At this stage, my focus is on creating clean
               portfolio images, and professional material for future modeling
               opportunities.
             </p>
