@@ -57,20 +57,14 @@ export default function DigitalsPage() {
 
       <main className="mx-auto max-w-7xl px-6 pb-20 pt-12 md:px-12">
     
-
+<p> Working in progress on the Digitals.</p>
         <div className="grid gap-12 pb-20 md:grid-cols-2">
           {digitals.map((item, i) => (
             <div
               key={item.title}
               className={`${i % 2 === 1 ? "md:translate-y-24" : ""}`}
             >
-            <Reveal>
-      <img
-        src={item.image}
-        alt={item.title}
-        className="h-[560px] w-full object-cover"
-      />
-    </Reveal>
+
 
     <Reveal delay={0.3}>
       <p className="mt-4 text-sm uppercase tracking-[0.2em] text-[#d1b08a]">
