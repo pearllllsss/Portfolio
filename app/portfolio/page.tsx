@@ -3,7 +3,6 @@ import ContactSection from "../components/contactsection";
 import Reveal from "../components/reveal";
 export default function PortfolioPage() {
   const images = [
-    "/images/breakingglass.CR2",
     "/images/closeup3.jpg",
     "/images/wallstand.jpg",
     "/images/sitting.jpg",
