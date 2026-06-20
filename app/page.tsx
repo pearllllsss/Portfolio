@@ -15,7 +15,7 @@ export default function Page() {
     {
       src: "/images/runway1.jpg",
       alt: "Portrait 2",
-      title: "Students Fashion Runway | Florence, Italy",
+      title: "Fashion Students Runway | Florence, Italy",
       offset: true,
     },
     {
