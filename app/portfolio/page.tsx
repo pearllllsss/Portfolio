@@ -1,23 +1,27 @@
 import Link from "next/link";
 import ContactSection from "../components/contactsection";
 import Reveal from "../components/reveal";
+
 export default function PortfolioPage() {
   const images = [
-    "/images/closeup1.jpg",
-    "/images/wallstand.jpg",
-    "/images/sitting.jpg",
-    "/images/closeup3.jpg",
+    { src: "/images/runway2.jpg", title: "Students Fashion Runway | Florence, Italy" },
+    { src: "/images/closeup1.jpg"},
+    { src: "/images/wallstand.jpg"},
+    { src: "/images/afp3.jpg"},
+    { src: "/images/sitting.jpg" },
+    { src: "/images/closeup3.jpg"},
   ];
 
   return (
     <div className="min-h-screen bg-[#1f1f1f] text-[#f3efe8]">
       <header className="px-6 pt-10 md:px-12">
         <div className="mb-16 text-center">
-  <Reveal>
-    <h1 className="font-serif text-6xl leading-none md:text-8xl tracking-tight">
-      Rita Soboh
-    </h1>
-  </Reveal>
+          <Reveal>
+            <h1 className="font-serif text-6xl leading-none md:text-8xl tracking-tight">
+              Rita Soboh
+            </h1>
+          </Reveal>
+
           <nav className="mt-8 flex items-center justify-center gap-8 text-sm md:gap-10">
             <Link href="/" className="pb-1 hover:text-[#d1b08a]">
               home
@@ -47,7 +51,6 @@ export default function PortfolioPage() {
       </header>
 
       <main className="mx-auto max-w-7xl px-6 pb-20 pt-12 md:px-12">
-
         <div className="grid gap-12 pb-20 md:grid-cols-2">
           {images.map((img, i) => (
             <div
@@ -57,16 +60,22 @@ export default function PortfolioPage() {
               } transition-transform duration-300`}
             >
               <Reveal>
-              <img
-                src={img}
-                alt={`Portfolio ${i + 1}`}
-                className="h-[520px] w-full object-cover"
-              />
+                <div>
+                  <p className="mb-4 text-[15px] uppercase tracking-[0.28em] text-[#d1b08a]">
+                    {img.title}
+                  </p>
+                  <img
+                    src={img.src}
+                    alt={img.title}
+                    className="h-[520px] w-full object-cover"
+                  />
+                </div>
               </Reveal>
             </div>
           ))}
         </div>
-        <ContactSection/>
+
+        <ContactSection />
       </main>
     </div>
   );
